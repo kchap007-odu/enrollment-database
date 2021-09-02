@@ -1,0 +1,268 @@
+/*
+    ADULT INSERT STATEMENTS
+    INSERT INTO ADULT VALUES(AdultID, LastName, FirstName, Address, PhoneNumber, Email);
+*/
+
+INSERT INTO ADULT VALUES (NULL, 'Kris', 'Baby', '656 Considine Village', 'Lake Moisesland', 'MT', '15949', '288-927-2807', 'jasper.damore@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Mayer', 'Daphnee', '369 Evert Manors', 'Lake Virgil', 'NM', '89723', '582-214-5550', 'conroy.ruth@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Collier', 'Eva', '916 Bernier Inlet Suite 771', 'Hilarioside', 'ND', '38912', '498-931-3655', 'zola59@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Gutkowski', 'Carlotta', '78700 Gleason Lights Suite 747', 'West Weldonfort', 'ID', '91340-0858', '188-466-9224', 'milo.mayer@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Rosenbaum', 'Alysha', '63385 Marks Bypass', 'New Garrison', 'NC', '97739', '511-112-7624', 'tiana.turcotte@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Hand', 'Austin', '8851 Willis Road', 'Rozellaview', 'HI', '74157', '330-732-6029', 'wintheiser.alycia@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Huel', 'Zander', '498 Jayson Garden', 'North Hector', 'NJ', '24805', '769-957-9474', 'adam.tremblay@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Wolff', 'Bill', '673 Towne Parks Apt. 140', 'Port Jessica', 'NC', '98090', '896-024-6860', 'sfisher@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Russel', 'Delpha', '80496 Ben Meadow', 'Hermistonchester', 'AZ', '54514', '550-022-7414', 'jose66@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Reichel', 'Walter', '617 Mack Valleys Apt. 161', 'Bernierberg', 'TN', '42469-9333', '136-215-7050', 'clare12@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Shanahan', 'Pearlie', '608 Felix Place', 'Mullertown', 'LA', '39838-7186', '929-970-5253', 'qnienow@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Friesen', 'Nolan', '118 Felipa Parkway', 'Julienburgh', 'MS', '11561', '462-952-7570', 'millie.bergstrom@example.com');
+INSERT INTO ADULT VALUES (NULL, 'McLaughlin', 'Okey', '706 Robel Mountains', 'North Vitastad', 'MS', '31954', '378-030-8643', 'alisa.kiehn@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Wilkinson', 'Elvis', '32334 Velma Via', 'Walkerstad', 'MT', '74380-0888', '798-065-5002', 'tyree.davis@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Cummings', 'Stewart', '63717 Botsford Prairie', 'South Helena', 'KS', '74610-2401', '507-230-6481', 'laurence.lang@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Price', 'Cole', '422 Waters Hill Suite 344', 'West Felicity', 'TX', '69504', '450-370-7259', 'qmarvin@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Hettinger', 'Cruz', '786 Maurine Land', 'Harryside', 'NC', '17319', '615-002-4067', 'daniel.zane@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Reilly', 'Retha', '54337 Delia Light', 'South Kaciechester', 'IA', '68010', '436-606-4843', 'hermiston.benton@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Stark', 'Verona', '1195 Lebsack Park Apt. 199', 'Dianahaven', 'MI', '59447', '052-510-9474', 'zaufderhar@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Marquardt', 'Rachelle', '83222 Kuvalis Mountain', 'Auermouth', 'NC', '77961', '863-040-5465', 'schulist.oliver@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Collins', 'Myrna', '59849 Maudie Glens Suite 045', 'Lake Jeffrey', 'SD', '94676', '025-556-6230', 'award@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Schimmel', 'Beulah', '08004 Leannon Meadows Apt. 336', 'McCulloughside', 'NV', '84999', '731-271-0338', 'pedro.moore@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Cummings', 'Annamarie', '97730 Dewayne Port Suite 786', 'New Charles', 'NH', '35431', '940-051-3114', 'obie35@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Hoppe', 'Eulah', '117 Kohler Pines Suite 399', 'North Stephen', 'NJ', '14117-1190', '431-715-4380', 'fisher.paige@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Smith', 'Bianka', '27273 Marks Mission Apt. 701', 'McGlynnview', 'MI', '09546-7914', '306-881-8643', 'vivianne17@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Padberg', 'Dashawn', '4608 Reuben Knoll Apt. 909', 'Ankundingville', 'CA', '15745-7065', '873-238-7491', 'ayla.anderson@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Schowalter', 'Charles', '033 Dolly Trafficway Suite 479', 'Rosinaview', 'OH', '87095', '859-157-8010', 'kattie87@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Jerde', 'Leif', '70381 West Keys', 'North Magnolia', 'SC', '49409', '860-081-2111', 'judson01@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Hermiston', 'Eden', '997 Schuster Lane Apt. 979', 'Kshlerinfurt', 'FL', '48700-2139', '042-128-5009', 'dbauch@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Dach', 'Graham', '904 Gerhold Junctions Suite 945', 'South Lorenport', 'KY', '49339-7475', '033-701-9590', 'cathy.bartell@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Kozey', 'Lauriane', '672 Jany Fall', 'Lake Hilmatown', 'CT', '75184-2143', '423-319-4711', 'pfeffer.daija@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Mertz', 'Brenda', '653 Hoppe Vista Suite 308', 'South Saul', 'KY', '03858', '628-618-7614', 'hweber@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Kautzer', 'Avis', '19841 Else Village Apt. 299', 'Botsfordville', 'SC', '58415', '665-265-5803', 'monty.runte@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Abbott', 'Laurine', '04765 Collins Forest', 'Herbertville', 'LA', '60322-5161', '299-176-9614', 'myrtle51@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Purdy', 'Heidi', '183 Nitzsche Pass', 'Lake Itzel', 'ME', '01856', '936-212-7176', 'kris.cassidy@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Berge', 'Electa', '880 Hortense Extension', 'Bechtelarburgh', 'IL', '67411', '395-089-3579', 'katelin21@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Quitzon', 'Kaela', '1680 Lawrence Ford Suite 298', 'West Buddyfort', 'FL', '46999', '875-568-1233', 'isaias94@example.net');
+INSERT INTO ADULT VALUES (NULL, 'McCullough', 'Aron', '44433 Davis Locks Suite 178', 'Hudsonmouth', 'SD', '02273', '671-170-8890', 'georgianna82@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Beer', 'Kendrick', '155 Kutch Springs Suite 843', 'Port Clare', 'OK', '47894-4759', '845-098-6990', 'goodwin.graciela@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Nikolaus', 'Pat', '998 Durgan Forest Suite 567', 'Harveychester', 'PA', '44474', '409-676-7058', 'ferry.torey@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Wilderman', 'Yvonne', '46419 Carlo Underpass', 'Smithport', 'NY', '15861-4063', '847-416-3215', 'branson.jerde@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Boyer', 'Stone', '891 Joel Streets', 'New Eva', 'IL', '06954-6750', '620-439-2230', 'alford00@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Ondricka', 'Miracle', '038 Weber Courts', 'Port Glenniefort', 'CA', '28384-9187', '222-407-2357', 'cbartoletti@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Rohan', 'Jarret', '24576 Bonita Crescent', 'East Rick', 'WA', '38916', '454-842-6655', 'buster65@example.com');
+INSERT INTO ADULT VALUES (NULL, 'Brekke', 'Gretchen', '7821 Glennie Creek', 'Flatleyville', 'HI', '38917-9573', '022-282-4812', 'ojacobson@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Abshire', 'Mya', '256 Botsford Fork Suite 680', 'Lake Elyse', 'MT', '69209', '824-842-3567', 'ben66@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Beatty', 'Durward', '769 Yasmine Rapid Suite 756', 'North Dorothy', 'GA', '68637', '733-007-5052', 'runolfsson.mack@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Hayes', 'Antonietta', '3845 Champlin Valleys Apt. 550', 'North Everettemouth', 'WI', '77231', '809-383-0625', 'thiel.flossie@example.net');
+INSERT INTO ADULT VALUES (NULL, 'Doyle', 'Eula', '5183 Wolff Alley', 'Maybellmouth', 'MA', '47960-3083', '654-141-9199', 'marilie.feil@example.org');
+INSERT INTO ADULT VALUES (NULL, 'Lind', 'Akeem', '91042 Arden Junction', 'Port Keyon', 'NM', '43626-1254', '069-168-3117', 'vwiza@example.org');
+
+/*
+    ACCOUNT INSERT STATEMENTS
+    INSERT INTO ACCOUNT VALUES(AccountID, PrimaryUserID, SpouseID, Password);
+*/
+
+INSERT INTO ACCOUNT VALUES (NULL, 1, NULL, '9j2r19zv18pwb44');
+INSERT INTO ACCOUNT VALUES (NULL, 2, NULL, '6r7i48kv67die14');
+INSERT INTO ACCOUNT VALUES (NULL, 3, NULL, '0k8w62jr50zgk30');
+INSERT INTO ACCOUNT VALUES (NULL, 4, NULL, '3l2i71iy78iov08');
+INSERT INTO ACCOUNT VALUES (NULL, 5, NULL, '9h7f36ry82ikk89');
+INSERT INTO ACCOUNT VALUES (NULL, 6, NULL, '2i6t16pm27val34');
+INSERT INTO ACCOUNT VALUES (NULL, 7, NULL, '4c8i03um09xtv89');
+INSERT INTO ACCOUNT VALUES (NULL, 8, NULL, '2f4w92bt79ofj62');
+INSERT INTO ACCOUNT VALUES (NULL, 9, NULL, '7i0q52yd89avw62');
+INSERT INTO ACCOUNT VALUES (NULL, 10, NULL, '6e5v21xi96thv03');
+INSERT INTO ACCOUNT VALUES (NULL, 11, NULL, '1o3n91zc01eqt31');
+INSERT INTO ACCOUNT VALUES (NULL, 12, NULL, '1l7n14pm71aph85');
+INSERT INTO ACCOUNT VALUES (NULL, 13, NULL, '7n7k53iv84hcs60');
+INSERT INTO ACCOUNT VALUES (NULL, 14, NULL, '9i1x03wp20obz47');
+INSERT INTO ACCOUNT VALUES (NULL, 15, NULL, '2r2z09di40fbv68');
+INSERT INTO ACCOUNT VALUES (NULL, 16, NULL, '7b7x63sq54njs50');
+INSERT INTO ACCOUNT VALUES (NULL, 17, NULL, '0f9x21cy80gba18');
+INSERT INTO ACCOUNT VALUES (NULL, 18, NULL, '3i7p37ck31hle50');
+INSERT INTO ACCOUNT VALUES (NULL, 19, NULL, '3s8w20rh85jmz92');
+INSERT INTO ACCOUNT VALUES (NULL, 20, NULL, '2p6g57rl82qgq82');
+INSERT INTO ACCOUNT VALUES (NULL, 21, NULL, '1c0c84oh57wew96');
+INSERT INTO ACCOUNT VALUES (NULL, 22, NULL, '8e7w74cf25weo90');
+INSERT INTO ACCOUNT VALUES (NULL, 23, NULL, '8w9f40pd57unt23');
+INSERT INTO ACCOUNT VALUES (NULL, 24, NULL, '4v4t79bb03ctt76');
+INSERT INTO ACCOUNT VALUES (NULL, 25, NULL, '8p5p92zg06asf41');
+INSERT INTO ACCOUNT VALUES (NULL, 26, NULL, '1m6z82mp55fba89');
+INSERT INTO ACCOUNT VALUES (NULL, 27, NULL, '3r7u08wy72bsm98');
+INSERT INTO ACCOUNT VALUES (NULL, 28, NULL, '5i8e46va10syb07');
+INSERT INTO ACCOUNT VALUES (NULL, 29, NULL, '5n6k25fe71qtw52');
+INSERT INTO ACCOUNT VALUES (NULL, 30, NULL, '2q3n25aj87pop95');
+INSERT INTO ACCOUNT VALUES (NULL, 31, NULL, '4h2l76wp46ofm64');
+INSERT INTO ACCOUNT VALUES (NULL, 32, NULL, '2p9v98xq85eqt39');
+INSERT INTO ACCOUNT VALUES (NULL, 33, NULL, '1f3j04gb00iig64');
+INSERT INTO ACCOUNT VALUES (NULL, 34, NULL, '6j6n87ho53zeo09');
+INSERT INTO ACCOUNT VALUES (NULL, 35, NULL, '2w5p67tz50luw11');
+INSERT INTO ACCOUNT VALUES (NULL, 36, NULL, '8s2q91xg54jvk44');
+INSERT INTO ACCOUNT VALUES (NULL, 37, NULL, '6n9m13yk11lzk22');
+INSERT INTO ACCOUNT VALUES (NULL, 38, NULL, '6q4c03ed16jrq36');
+INSERT INTO ACCOUNT VALUES (NULL, 39, NULL, '3b2k33ew96dpz49');
+INSERT INTO ACCOUNT VALUES (NULL, 40, NULL, '2x6g67ae71bta02');
+INSERT INTO ACCOUNT VALUES (NULL, 41, NULL, '0h9a82as29lag37');
+INSERT INTO ACCOUNT VALUES (NULL, 42, NULL, '9w4m04ck88uow62');
+INSERT INTO ACCOUNT VALUES (NULL, 43, NULL, '3w4w77jc21nvt62');
+INSERT INTO ACCOUNT VALUES (NULL, 44, NULL, '6i6y69li44qsk60');
+INSERT INTO ACCOUNT VALUES (NULL, 45, NULL, '7q6a50zu34gma55');
+INSERT INTO ACCOUNT VALUES (NULL, 46, NULL, '3m6y81ly72isl04');
+INSERT INTO ACCOUNT VALUES (NULL, 47, NULL, '6d4w19nu85pju63');
+INSERT INTO ACCOUNT VALUES (NULL, 48, NULL, '7h0l61lj65rfa19');
+INSERT INTO ACCOUNT VALUES (NULL, 49, NULL, '0j2h73hm43tgx95');
+INSERT INTO ACCOUNT VALUES (NULL, 50, NULL, '4c1t67nu69bnl50');
+
+
+/*
+    ROLES INSERT STATEMENTS
+    INSERT INTO ROLES VALUES(RoleID, Role);
+*/
+
+INSERT INTO ROLES VALUES (NULL, 'Parent');
+INSERT INTO ROLES VALUES (NULL, 'Assistant');
+INSERT INTO ROLES VALUES (NULL, 'Teacher');
+INSERT INTO ROLES VALUES (NULL, 'Principal');
+
+
+/*
+    ROLE_REL INSERT STATEMENTS
+    INSERT INTO ROLE_REL VALUES(AdultID, RoleID);
+*/
+
+INSERT INTO ROLE_REL VALUES (1, 1);
+INSERT INTO ROLE_REL VALUES (1, 2);
+INSERT INTO ROLE_REL VALUES (1, 3);
+INSERT INTO ROLE_REL VALUES (1, 4);
+INSERT INTO ROLE_REL VALUES (2, 1);
+INSERT INTO ROLE_REL VALUES (2, 2);
+INSERT INTO ROLE_REL VALUES (2, 3);
+INSERT INTO ROLE_REL VALUES (3, 1);
+INSERT INTO ROLE_REL VALUES (3, 3);
+INSERT INTO ROLE_REL VALUES (4, 1);
+INSERT INTO ROLE_REL VALUES (4, 2);
+INSERT INTO ROLE_REL VALUES (5, 1);
+INSERT INTO ROLE_REL VALUES (6, 1);
+INSERT INTO ROLE_REL VALUES (7, 1);
+INSERT INTO ROLE_REL VALUES (8, 1);
+INSERT INTO ROLE_REL VALUES (9, 1);
+INSERT INTO ROLE_REL VALUES (10, 1);
+INSERT INTO ROLE_REL VALUES (11, 1);
+INSERT INTO ROLE_REL VALUES (12, 1);
+INSERT INTO ROLE_REL VALUES (13, 1);
+INSERT INTO ROLE_REL VALUES (14, 1);
+INSERT INTO ROLE_REL VALUES (15, 1);
+INSERT INTO ROLE_REL VALUES (16, 1);
+INSERT INTO ROLE_REL VALUES (17, 1);
+INSERT INTO ROLE_REL VALUES (18, 1);
+INSERT INTO ROLE_REL VALUES (19, 1);
+INSERT INTO ROLE_REL VALUES (20, 1);
+INSERT INTO ROLE_REL VALUES (21, 1);
+INSERT INTO ROLE_REL VALUES (22, 1);
+INSERT INTO ROLE_REL VALUES (23, 1);
+INSERT INTO ROLE_REL VALUES (24, 1);
+INSERT INTO ROLE_REL VALUES (25, 1);
+INSERT INTO ROLE_REL VALUES (26, 1);
+INSERT INTO ROLE_REL VALUES (27, 1);
+INSERT INTO ROLE_REL VALUES (28, 1);
+INSERT INTO ROLE_REL VALUES (29, 1);
+INSERT INTO ROLE_REL VALUES (30, 1);
+INSERT INTO ROLE_REL VALUES (31, 1);
+INSERT INTO ROLE_REL VALUES (32, 1);
+INSERT INTO ROLE_REL VALUES (33, 1);
+INSERT INTO ROLE_REL VALUES (34, 1);
+INSERT INTO ROLE_REL VALUES (35, 1);
+INSERT INTO ROLE_REL VALUES (36, 1);
+INSERT INTO ROLE_REL VALUES (37, 1);
+INSERT INTO ROLE_REL VALUES (38, 1);
+INSERT INTO ROLE_REL VALUES (39, 1);
+INSERT INTO ROLE_REL VALUES (40, 1);
+INSERT INTO ROLE_REL VALUES (41, 1);
+INSERT INTO ROLE_REL VALUES (42, 1);
+INSERT INTO ROLE_REL VALUES (43, 1);
+INSERT INTO ROLE_REL VALUES (44, 1);
+INSERT INTO ROLE_REL VALUES (45, 1);
+INSERT INTO ROLE_REL VALUES (46, 1);
+INSERT INTO ROLE_REL VALUES (47, 1);
+INSERT INTO ROLE_REL VALUES (48, 1);
+INSERT INTO ROLE_REL VALUES (49, 1);
+INSERT INTO ROLE_REL VALUES (50, 1);
+
+/*
+    CHILD INSERT STATEMENTS
+    INSERT INTO CHILD VALUES(ChildID, LastName, FirstName, DateOfBirth, Gender, GradeLevel);
+*/
+
+INSERT INTO CHILD VALUES (NULL, 'Kirlin', 'Thelma', '2011-08-08', 'f', '5');
+INSERT INTO CHILD VALUES (NULL, 'Hayes', 'Efrain', '2004-06-18', 'f', '12');
+INSERT INTO CHILD VALUES (NULL, 'Williams', 'Ewald', '2007-09-18', 'm', '9');
+INSERT INTO CHILD VALUES (NULL, 'Heaney', 'Janae', '2015-11-03', 'f', '1');
+INSERT INTO CHILD VALUES (NULL, 'Ziemann', 'Kaleigh', '2016-05-10', 'f', 'K');
+INSERT INTO CHILD VALUES (NULL, 'Smith', 'John', '2011-08-07', 'm', '5');
+
+/*
+    PAR_CH_REL INSERT STATEMENTS
+    INSERT INTO PAR_CH_REL VALUES(AdultID, ChildID);
+*/
+
+INSERT INTO PAR_CH_REL VALUES (1, 1);
+INSERT INTO PAR_CH_REL VALUES (1, 5);
+INSERT INTO PAR_CH_REL VALUES (2, 2);
+INSERT INTO PAR_CH_REL VALUES (3, 3);
+INSERT INTO PAR_CH_REL VALUES (4, 4);
+
+/*
+    SEMESTER INSERT STATEMENTS
+    INSERT INTO SEMESTER VALUES(SemesterID, Name, StartDate, EndDate);
+*/
+
+INSERT INTO SEMESTER VALUES (NULL, 'Spring 2020', '2020-01-01', '2020-05-31');
+INSERT INTO SEMESTER VALUES (NULL, 'Summer 2020', '2020-06-01', '2020-07-31');
+INSERT INTO SEMESTER VALUES (NULL, 'Fall 2020', '2020-08-01', '2020-12-31');
+INSERT INTO SEMESTER VALUES (NULL, 'Spring 2021', '2021-01-01', '2021-05-31');
+INSERT INTO SEMESTER VALUES (NULL, 'Summer 2021', '2021-06-01', '2021-07-31');
+INSERT INTO SEMESTER VALUES (NULL, 'Fall 2021', '2021-08-01', '2021-12-31');
+
+/*
+    ACTIVITY INSERT STATEMENTS
+    INSERT INTO ACTIVITY VALUES(ActivityID, SemesterID, Name, RegularClass, Room, GradeMin, GradeMax, BeginTime, EndTime, MaxSeats, Cost); 
+*/
+
+INSERT INTO ACTIVITY VALUES (NULL, 4, 'Math', 1, '105-A', '5', '5', '08:00:00', '09:00:00', 30, 250.00);
+INSERT INTO ACTIVITY VALUES (NULL, 4, 'Science', 1, '105-A', '5', '5', '09:00:00', '10:00:00', 30, 250.00);
+INSERT INTO ACTIVITY VALUES (NULL, 4, 'English', 1, '105-C', '5', '5', '08:00:00', '09:00:00', 30, 250.00);
+INSERT INTO ACTIVITY VALUES (NULL, 4, 'History', 1, '105-D', '5', '5', '08:00:00', '09:00:00', 30, 250.00);
+INSERT INTO ACTIVITY VALUES (NULL, 4, 'Programming', 0, '105-A', '5', '5', '15:00:00', '16:00:00', 30, 300.00);
+
+/*
+    ENROLLMENT INSERT STATEMENTS
+    INSERT INTO ENROLLMENT VALUES (EnrollmentID, ChildID, ActivityID, FinalGrade);
+*/
+
+INSERT INTO ENROLLMENT VALUES (NULL, 1, 1, NULL);
+INSERT INTO ENROLLMENT VALUES (NULL, 2, 5, NULL);
+INSERT INTO ENROLLMENT VALUES (NULL, 3, 5, NULL);
+INSERT INTO ENROLLMENT VALUES (NULL, 4, 5, NULL);
+INSERT INTO ENROLLMENT VALUES (NULL, 5, 5, NULL);
+INSERT INTO ENROLLMENT VALUES (NULL, 6, 1, NULL);
+
+/*
+    INSTRUCTOR_REL INSERT STATEMENTS
+    INSERT INTO INSTRUCTOR_REL VALUES(AdultID, CourseID);
+*/
+
+INSERT INTO INSTRUCTOR_REL VALUES (1, 1);
+INSERT INTO INSTRUCTOR_REL VALUES (1, 2);
+INSERT INTO INSTRUCTOR_REL VALUES (2, 3);
+INSERT INTO INSTRUCTOR_REL VALUES (3, 4);
+
+/*
+    AFTER_SCH_REL INSERT STATEMENTS
+    INSERT INTO AFTER_SCH_REL VALUES(AdultID, CourseID);
+*/
+
+INSERT INTO AFTER_SCH_REL VALUES (1, 5);
+
+/*
+    ASSISTANT_REL INSERT STATEMENTS
+    INSERT INTO ASSISTANT_REL VALUES(AdultID, CourseID);
+*/
+
+INSERT INTO ASSISTANT_REL VALUES (2, 2);

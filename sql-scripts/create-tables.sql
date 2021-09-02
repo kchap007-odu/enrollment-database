@@ -1,0 +1,157 @@
+CREATE TABLE ADULT (
+	AdultID Int NOT NULL AUTO_INCREMENT,
+    LastName Varchar(50) NOT NULL,
+    FirstName Varchar(50) NOT NULL,
+    Address Varchar(200) NULL,
+    City Varchar(100) NULL,
+    State Varchar(2) NULL,
+    Zip Varchar(10) NULL,
+    PhoneNumber Varchar(12) NULL,
+    Email Varchar(100) NOT NULL UNIQUE,
+    CONSTRAINT ADULT_PK PRIMARY KEY(AdultID)
+);
+
+CREATE TABLE ACCOUNT (
+    AccountID Int NOT NULL AUTO_INCREMENT,
+    PrimaryUserID Int NOT NULL UNIQUE,
+    SpouseID Int NULL UNIQUE,
+    Password Varchar(50) NOT NULL,
+    CONSTRAINT ACCOUNT_PK PRIMARY KEY(AccountID),
+    CONSTRAINT PRIMARY_ACCOUNT_FK FOREIGN KEY(PrimaryUserID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION,
+    CONSTRAINT SPOUSE_ACCOUNT_FK FOREIGN KEY(SpouseID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION
+);
+
+CREATE TABLE ROLES (
+    RoleID Int NOT NULL AUTO_INCREMENT,
+    Role Varchar(50) NOT NULL,
+    CONSTRAINT ROLES_PK PRIMARY KEY(RoleID)
+);
+
+CREATE TABLE ROLE_REL (
+    AdultID Int NOT NULL,
+    RoleID Int NOT NULL,
+    CONSTRAINT ROLE_REL_PK PRIMARY KEY(AdultID, RoleID),
+    CONSTRAINT ADULT_ROLE_REL_FK FOREIGN KEY(AdultID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION,
+    CONSTRAINT ROLE_ROLE_REL_FK FOREIGN KEY(RoleID)
+                REFERENCES ROLES(RoleID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION
+);
+
+CREATE TABLE CHILD (
+    ChildID Int NOT NULL AUTO_INCREMENT,
+    LastName Varchar(50) NOT NULL,
+    FirstName Varchar(50) NOT NULL,
+    DateOfBirth Date NULL,
+    Gender Char(1) NULL,
+    GradeLevel Char(2) NULL,
+    CONSTRAINT CHILD_PK PRIMARY KEY(ChildID)
+);
+
+CREATE TABLE PAR_CH_REL(
+    AdultID Int NOT NULL,
+    ChildID Int NOT NULL,
+    CONSTRAINT PAR_CH_PK PRIMARY KEY(AdultID, ChildID),
+    CONSTRAINT ADULT_PAR_CH_FK FOREIGN KEY(AdultID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION,
+    CONSTRAINT CHILD_PAR_CH_FK FOREIGN KEY(ChildID)
+                REFERENCES CHILD(ChildID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION
+);
+
+CREATE TABLE SEMESTER (
+    SemesterID Int NOT NULL AUTO_INCREMENT,
+    Name Varchar(50) NOT NULL,
+    StartDate Date NULL,
+    EndDate Date NULL,
+    CONSTRAINT SEMESTER_PK PRIMARY KEY(SemesterID)
+);
+
+CREATE TABLE ACTIVITY (
+    ActivityID Int NOT NULL AUTO_INCREMENT,
+    SemesterID Int NOT NULL,
+    Name Varchar(100) NOT NULL,
+    RegularClass Boolean NOT NULL,
+    Room Varchar(25) NULL,
+    GradeMin Char(2) NULL,
+    GradeMax Char(2) NULL,
+    BeginTime Time NULL,
+    EndTime Time NULL,
+    MaxSeats Int NULL,
+    Cost Numeric(8,2) NULL,
+    CONSTRAINT ACTIVITY_PK PRIMARY KEY(ActivityID),
+    CONSTRAINT SEMESTER_ACTIVITY_FK FOREIGN KEY(SemesterID)
+                    REFERENCES SEMESTER(SemesterID)
+                    ON UPDATE NO ACTION
+                    ON DELETE NO ACTION
+);
+
+CREATE TABLE ENROLLMENT (
+    EnrollmentID Int NOT NULL AUTO_INCREMENT,
+    ChildID Int NOT NULL,
+    ActivityID Int NOT NULL,
+    FinalGrade Varchar(2) NULL,
+    CONSTRAINT ENROLLMENT_PK PRIMARY KEY(EnrollmentID),
+    CONSTRAINT CHILD_ENROLLMENT_FK FOREIGN KEY(ChildID)
+                    REFERENCES CHILD(ChildID)
+                    ON UPDATE NO ACTION
+                    ON DELETE NO ACTION,
+    CONSTRAINT ACTIVITY_ENROLLMENT_FK FOREIGN KEY(ActivityID)
+                    REFERENCES ACTIVITY(ActivityID)
+                    ON UPDATE NO ACTION
+                    ON DELETE NO ACTION
+);
+
+CREATE TABLE INSTRUCTOR_REL (
+    AdultID Int NOT NULL,
+    ActivityID Int NOT NULL,
+    CONSTRAINT INSTRUCTOR_REL_PK PRIMARY KEY(AdultID, ActivityID),
+    CONSTRAINT ADULT_INSTRUCTOR_REL_FK FOREIGN KEY(AdultID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION,
+    CONSTRAINT ACTIVITY_INSTRUCTOR_REL_FK FOREIGN KEY(ActivityID)
+                REFERENCES ACTIVITY(ActivityID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION
+);
+
+CREATE TABLE AFTER_SCH_REL (
+    AdultID Int NOT NULL,
+    ActivityID Int NOT NULL,
+    CONSTRAINT AFTER_SCH_REL_PK PRIMARY KEY(AdultID, ActivityID),
+    CONSTRAINT ADULT_AFTER_SCH_REL_FK FOREIGN KEY(AdultID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION,
+    CONSTRAINT ACTIVITY_AFTER_SCH_REL_FK FOREIGN KEY(ActivityID)
+                REFERENCES ACTIVITY(ActivityID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION
+);
+
+CREATE TABLE ASSISTANT_REL (
+    AdultID Int NOT NULL,
+    ActivityID Int NOT NULL,
+    CONSTRAINT ASSISTANT_REL_PK PRIMARY KEY(AdultID, ActivityID),
+    CONSTRAINT ADULT_ASSISTANT_REL_FK FOREIGN KEY(ActivityID)
+                REFERENCES ADULT(AdultID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION,
+    CONSTRAINT ACTIVITY_ASSISTANT_REL_FK FOREIGN KEY(ActivityID)
+                REFERENCES ACTIVITY(ActivityID)
+                ON UPDATE NO ACTION
+                ON DELETE NO ACTION
+);
